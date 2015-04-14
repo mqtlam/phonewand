@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+		android:state_enabled="false" >
+		<shape>
+			<gradient 
+				android:startColor="@color/key_start_disabled"
+				android:centerColor="@color/key_center_disabled"
+				android:endColor="@color/key_end_disabled"
+				android:type="linear"
+				android:centerY="@dimension/key_gradient_centerY"
+				android:angle="@dimension/key_gradient_angle" />
+			<stroke 
+				android:width="@dimension/key_stroke_width"
+				android:color="@color/key_stroke_disabled" />
+			<corners 
+				android:radius="@dimension/key_corner_radius" />
+			<padding 
+				android:left="@dimension/key_padding_left" 
+				android:top="@dimension/key_padding_top" 
+				android:right="@dimension/key_padding_right" 
+				android:bottom="@dimension/key_padding_bottom" />
+		</shape>
+	</item>
+	<item 
+		android:state_pressed="true" >
+		<shape>
+			<gradient 
+				android:startColor="@color/key_start_pressed"
+				android:centerColor="@color/key_center_pressed"
+				android:endColor="@color/key_end_pressed"
+				android:type="linear"
+				android:centerY="@dimension/key_gradient_centerY"
+				android:angle="@dimension/key_gradient_angle" />
+			<stroke 
+				android:width="@dimension/key_stroke_width"
+				android:color="@color/key_stroke_pressed" />
+			<corners 
+				android:radius="@dimension/key_corner_radius" />
+			<padding 
+				android:left="@dimension/key_padding_left" 
+				android:top="@dimension/key_padding_top" 
+				android:right="@dimension/key_padding_right" 
+				android:bottom="@dimension/key_padding_bottom" />
+		</shape>
+	</item>
+	<item 
+		android:state_focused="true" >
+		<shape>
+			<gradient 
+				android:startColor="@color/key_start_focused"
+				android:centerColor="@color/key_center_focused"
+				android:endColor="@color/key_end_focused"
+				android:type="linear"
+				android:centerY="@dimension/key_gradient_centerY"
+				android:angle="@dimension/key_gradient_angle" />
+			<stroke 
+				android:width="@dimension/key_stroke_width"
+				android:color="@color/key_stroke_focused" />
+			<corners 
+				android:radius="@dimension/key_corner_radius" />
+			<padding 
+				android:left="@dimension/key_padding_left" 
+				android:top="@dimension/key_padding_top" 
+				android:right="@dimension/key_padding_right" 
+				android:bottom="@dimension/key_padding_bottom" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+			<gradient 
+				android:startColor="@color/key_start_normal"
+				android:centerColor="@color/key_center_normal"
+				android:endColor="@color/key_end_normal"
+				android:type="linear"
+				android:centerY="@dimension/key_gradient_centerY"
+				android:angle="@dimension/key_gradient_angle" />
+			<stroke 
+				android:width="@dimension/key_stroke_width"
+				android:color="@color/key_stroke_normal" />
+			<corners 
+				android:radius="@dimension/key_corner_radius" />
+			<padding 
+				android:left="@dimension/key_padding_left" 
+				android:top="@dimension/key_padding_top" 
+				android:right="@dimension/key_padding_right" 
+				android:bottom="@dimension/key_padding_bottom" />
+		</shape>
+	</item>
+</selector>

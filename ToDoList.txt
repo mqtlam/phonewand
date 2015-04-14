@@ -1,0 +1,82 @@
+// ************************** MagicWand ToDoList: ************************** //
+// ******************************* Michael: ******************************** //
+- TODO post demo day: (in general, for all of us)
+	- Get rid of TTSActivity and put it into a service. Activities that require TTS
+		will need to get the TTS object from the service.
+	- Add speech confirmation to each action (as well as some vibration, which has been 
+		done already by Chris)
+	- Before transitioning to next screen, speech should end.
+	- For the list screen, add something like "1 of 6." add the beginning of speech
+		so user knows which item she's at.
+	- For each screen, speak the screen name.
+	- On screen accessible keyboard.
+	- Make sure the toasts are TTS.
+	- Double tap any where to select for lists
+	- Disable title bar notification thing in list
+
+
+// ******************************** Chris: ********************************* //
+-vibrations on swipes
+-swipe down code
+-Address of Chipotle
+4229 University Way NE
+Seattle, WA 98105
+
+Observable Bugs:
+-compass heading or Compass drawing seem off a few degrees...
+
+// ********************************* Levi: ********************************* //
+-- KEYBOARD:
+-- add a space below the navigation buttons
+-- add a backspace button in addition to the others
+-- add the ability to read the entire text one character at a time
+
+
+
+-- state that the application is closing when we close it from an error
+-- make it all useable by a blind person
+
+-- Kill the TTS when we leave the screen/dialog/event
+-- Add the sideways swipe transitions to the slider screens for uniformity
+-- speak the current step of the route when the DirectionsDisplay screen opens?
+
+------- instead of having the RouteInput screen try to determine if there is an Internet 
+		connection and a location fix, just have the RouteOrienter screen return to 
+		RouteInput if it doesn't find either of these.
+
+-- ensure that the PossibleAddresses screen works
+
+-- Current tasks:
+		- moving code to the new RouteService,
+		- instantiating/calling location code and web service code from the RouteFinder screen, 
+		- adding code to the RouteFinder screen to not open RouteChecker unless there is a fix on current location, an Internet connection, and a valid route found from the user's specified destination,
+		- rearranging code into a logical, easy-to-follow, delimited layout
+
+--------- WE SHOULD HAVE AN "ADD MY CURRENT LOCATION TO DATABASE" BUTTON
+
+--- some day, we need to display Google Maps copyright information in conjunction with the directions...
+
+-- set the UNIT_SYSTEM field to be adjustable by the user
+
+- figure out when to open and close the LocationManager (don't forget in onStart/onStop)
+- if we ever wanted to include any sort of static audio cues/messages, we could easily make use of Alden's recording equipment
+- add error handling with: Log.e messages, descriptive Toasts, verbal messages to the user
+- should we create a super class which both screens extend?
+
+- implement efficient way for Chris's code to JUST redraw the current location icon when orientation changes (not the whole route)
+- implement a way for the code to ensure that the user's phone has the Google Maps library, and if not, to use the Google Maps Web API
+
+Things we need to be able to tell the user:
+	- there is no GPS signal/we're waiting for the GPS to connect
+	- there is no Internet signal
+	- turn left
+	- turn right
+	- you're facing the right way
+	- you're there
+	- the location you entered was invalid / please clarify your destination
+	- you need to walk THIS far
+	- this is what you have entered as a destination
+	- these are some of your previously entered locations
+	
+
+// ************************************************************************* //

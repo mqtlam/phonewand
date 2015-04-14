@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	package="edu.uw.cse481h.phonewand" 
+	android:versionCode="1" 
+	android:versionName="1.0" >
+	
+	<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8" android:maxSdkVersion="9" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	
+	<application 
+		android:icon="@drawable/vibrating_compass" 
+		android:label="@string/app_name" 
+		android:theme="@style/ScreenTheme" >
+		<uses-library android:name="com.google.android.maps" />
+		<activity 
+			android:name=".RouteInput" 
+			android:screenOrientation="portrait" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity 
+			android:name=".RouteOrienter" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity 
+			android:name=".DirectionsDisplay" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity 
+			android:name=".PossibleAddresses" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity 
+			android:name=".RouteArchive" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity 
+			android:name=".BlindText" 
+			android:screenOrientation="portrait" 
+			android:theme="@style/KeyboardTheme" >
+		</activity>
+	</application>
+</manifest> 

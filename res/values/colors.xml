@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="title_bar_background">#FF33363B</color>
+	
+	<color name="screen_background_inner">#FFF3F6FF</color>
+	<color name="screen_background_outer">#FF93969B</color>
+	
+	<color name="keyboard_background_inner">#FF292929</color>
+	<color name="keyboard_background_outer">#FF060606</color>
+	
+	<color name="highlight">#FFAABBCC</color>
+	
+	<!-- =================== -->
+	<!-- Keyboard key colors -->
+	<!-- =================== -->
+	
+	<color name="key_text">#FFF0F7FF</color>
+	<color name="invisible">#00000000</color>
+	
+	<color name="key_stroke_normal">#FF111111</color>
+	<color name="key_stroke_pressed">#FF111111</color>
+	<color name="key_stroke_focused">#FF111111</color>
+	<color name="key_stroke_disabled">#77111111</color>
+	
+	<color name="key_end_normal">#FF44484F</color>
+	<color name="key_end_pressed">#FFAAB4D3</color>
+	<color name="key_end_focused">#FF777D8E</color>
+	<color name="key_end_disabled">#7744484F</color>
+	
+	<color name="key_start_normal">#FF666B7A</color>
+	<color name="key_start_pressed">#FFCCD5F1</color>
+	<color name="key_start_focused">#FF99A2BF</color>
+	<color name="key_start_disabled">#77666B7A</color>
+	
+	<color name="key_center_normal">#FF222222</color>
+	<color name="key_center_pressed">#FF888888</color>
+	<color name="key_center_focused">#FF444444</color>
+	<color name="key_center_disabled">#77222222</color>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">PhoneWand</string>
+	<string name="enter_destination">Enter Destination</string>
+	<string name="find_route_button">Find Route</string>
+	<string name="new_route_button">Enter New Route</string>
+	<string name="check_route_button">Check Route</string>
+	<string name="google_maps_result">The GET request to Google Maps returned:</string>
+	<string name="start_JSON_parsing">Beginning parsing of Google Maps JSON response</string>
+	<string name="parsing_new_step">Parsing a new step</string>
+	<string name="end_JSON_parsing">finished parsing Google Maps JSON response</string>
+	<string name="start_decoding">Beginning decoding of a new encoded Google Maps polyline</string>
+	<string name="end_decoding">Finished decoding Google Maps polyline</string>
+	<string name="added_geopoint">Added GeoPoint: </string>
+	<string name="finding_gps">Finding a GPS fix on your location...</string>
+	<string name="downloading_route">Downloading a route from Google Maps...</string>
+	<string name="url_created">URL String created: </string>
+	<string name="check_route">User pressed the Check Route button.</string>
+	<string name="get_directions_start">Starting direction retrieval.</string>
+	<string name="get_directions_end_success">Direction retrieval succeeded.</string>
+	<string name="get_directions_end_fail">Direction retrieval failed.</string>
+	<string name="please_connect_to_internet">We are unable to connect to Google Maps. Please double-check your Internet connection.</string>
+	<string name="unable_to_find_location">We are unable to get a fix on your current location.  Please wait while we continue trying.</string>
+	<string name="end_of_route">You\'ve reached your destination!</string>
+	<string name="invalid_google_response">Sorry, but we couldn\'t make sense of Google\'s route!</string>
+	<string name="no_matches_found_toast">No matches were found for the destination you entered.  Are you sure you entered it correctly?</string>
+	<string name="no_matches_found_log">No matches were found for the destination entered by the user</string>
+	<string name="invalid_destination_string_toast">Please first enter a valid destination.</string>
+	<string name="invalid_destination_string_log">The user entered an invalid destination String</string>
+	<string name="multiple_addresses_found">Multiple addresses were found which match the destination you entered.  Please select your desired address from below.</string>
+	<string name="address_retrieval_started">Address retrieval started for the destination String entered by the user: </string>
+	<string name="old_destination_button">Find Previous Destination</string>
+	<string name="one_address_found_log">Only one address was found which matches the user\'s destination: </string>
+	<string name="multiple_addresses_found_log">Multiple addresses were found which match the user\'s destination.</string>
+	<string name="enter_destination_prompt">Enter new destination</string>
+	<string name="at_sign">"@"</string>
+	<string name="question_mark">"?"</string>
+	<string name="num_punct">"?123"</string>
+	
+	<!-- ============= -->
+	<!--    Errors     -->
+	<!-- ============= -->
+	
+	<string name="db_fail">Error: unable to get writable database</string>
+	<string name="decode_fail">Error: unable to decode the String returned from the Google Maps Get request</string>
+	<string name="get_route_address_fail">Error: an error occurred while retrieving the route or address: </string>
+	<string name="get_gps_fail">Error: unable to get a fix on the user\'s current location</string>
+	<string name="invalid_message_fail">Error: invalid Message given to Handler: </string>
+	<string name="get_extra_fail">Error: a problem occurred with getting the Intent extras that should have been passed from the RouteFinder Activity to the RouteChecker Activity</string>
+	<string name="unknown_notification_fail">Error: An unknown notification was passed: </string>
+	<string name="delete_fail">Error: unable to delete records from the database</string>
+	<string name="add_fail">Error: record not added to the database</string>
+	<string name="get_fail">Error: unable to get record from database</string>
+	<string name="route_parsing_fail">Error: the JSON response returned from Google Maps was in an unexpected format</string>
+	<string name="local_service_disconnected_fail">Error: local service disconnected</string>
+	<string name="invalid_request_code_fail">Error: invalid request code given to onActivityResult: </string>
+	<string name="address_id_extra_fail">Error: address id extra not passed correctly</string>
+	<string name="address_index_extra_fail">Error: address index extra not passed correctly</string>
+	
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="key_gradient_centerY" type="dimension">0.5</item>
+	<item name="key_gradient_centerX" type="dimension">0.5</item>
+	<item name="key_gradient_angle" type="dimension">270</item>
+	<item name="key_padding_top" type="dimension">10dp</item>
+	<item name="key_padding_bottom" type="dimension">10dp</item>
+	<item name="key_padding_left" type="dimension">10dp</item>
+	<item name="key_padding_right" type="dimension">10dp</item>
+	<item name="key_corner_radius" type="dimension">3dp</item>
+	<item name="key_stroke_width" type="dimension">0.5dp</item>
+	<item name="screen_gradient_radius" type="dimension">537</item>
+</resources>

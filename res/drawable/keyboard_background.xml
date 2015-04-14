@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"> 
+	<gradient 
+		android:startColor="@color/keyboard_background_inner" 
+		android:endColor="@color/keyboard_background_outer"
+		android:type="radial"
+		android:gradientRadius="537"/>
+</shape>

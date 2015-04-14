@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ScreenTheme" parent="@android:style/Theme.Light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:windowBackground">@drawable/screen_background</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBackgroundStyle</item>
+    </style>
+    <style name="KeyboardTheme" parent="@style/ScreenTheme">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/key_text</item>
+        <item name="android:windowBackground">@drawable/keyboard_background</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBackgroundStyle</item>
+        <item name="android:buttonStyle">@style/KeyStyle</item>
+    </style>
+    <style name="KeyStyle" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/key_background</item>
+        <item name="android:textColor">@color/key_text</item>
+        <item name="android:paddingLeft">2sp</item>
+		<item name="android:layout_margin">4sp</item>
+	</style>
+    <style name="TitleBackgroundStyle">     
+        <item name="android:background">@color/title_bar_background</item>                   
+    </style>
+    <style name="RadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+		
+	</style>
+    <style name="CheckBoxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+		
+	</style>
+    <style name="SeekBarStyle" parent="@android:style/Widget.SeekBar">
+		
+	</style>
+    <style name="ProgressBarStyle" parent="@android:style/Widget.ProgressBar">
+		
+	</style>
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+		
+	</style>
+    <style name="SpinnerStyle" parent="@android:style/Widget.Spinner">
+		
+	</style>
+    <style name="SpinnerItemStyle" parent="@android:style/Widget.TextView.SpinnerItem">
+		
+	</style>
+    <style name="WindowTitleBackgroundStyle" parent="@android:style/WindowTitleBackground">
+		
+	</style>
+    <style name="DialogWindowTitleStyle" parent="@android:style/DialogWindowTitle">
+		
+	</style>
+    <style name="WindowTitleStyle" parent="@android:style/WindowTitle">
+		
+	</style>
+    <style name="MenuStyle" parent="@android:style/Widget.ListView.Menu">
+		
+	</style>
+    <style name="AlertDialogStyle" parent="@android:style/AlertDialog">
+		
+	</style>
+    <style name="ScrollViewStyle" parent="@android:style/Widget.ScrollView">
+		
+	</style>
+</resources>

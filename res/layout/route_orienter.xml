@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/wholescreen" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	<!--Debug apiKey:				0UVaTQ55nPvW6CaQbRLQWVkt9UJYIJ1eGxuLVsw
+		Our private release apiKey:	0UVaTQ55nPvWjlkRMCfbxbPSp4CH7j7yE-odYzg -->
+	<com.google.android.maps.MapView 
+		android:id="@+id/map" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:apiKey="0UVaTQ55nPvW6CaQbRLQWVkt9UJYIJ1eGxuLVsw" 
+		android:layout_weight="7" />
+	<!-- Button 
+		android:id="@+id/checkroute" 
+		android:text="@string/check_route_button" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" />
+	<Button 
+		android:id="@+id/newroute" 
+		android:text="@string/new_route_button" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" /-->
+</LinearLayout>
